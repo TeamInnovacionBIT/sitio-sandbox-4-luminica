@@ -24,7 +24,12 @@
 | Formas de pago | Transferencia bancaria (5 % de descuento); tarjeta de débito o de crédito mediante enlace de pago enviado por correo, hasta 6 cuotas sin interés |
 | Despacho "En stock" | dentro de los 2 días hábiles posteriores a la acreditación del pago |
 | Plazo adicional "Sobre pedido" | hasta 20 días hábiles antes del despacho |
-| Garantía estándar | mínimo 12 meses contra defectos de fabricación desde la fecha de entrega; el plazo de cada artículo figura en el catálogo |
+| Garantía estándar de productos | mínimo 12 meses contra defectos de fabricación desde la fecha de entrega; el plazo de cada artículo figura en el catálogo (máximo 144 meses, paneles solares) |
+| Garantía de servicios (LUM-INT-001 y LUM-INT-002) | 3 meses desde la entrega, con hasta 2 revisiones sin cargo |
+| Productos "Agotado temporalmente" | se pueden incluir en la solicitud; se informa la fecha estimada de reposición antes de la aprobación; no se cobra nada hasta la confirmación |
+| Descuento por transferencia | 5 % sobre el precio de los productos, sin incluir el envío |
+| Visitas de entrega | segunda visita sin cargo; después de la segunda visita fallida el reenvío se cobra según la tabla |
+| Confirmación del pedido | cuando el cliente responde por correo aceptando el presupuesto final |
 | Respuesta a reclamos de garantía | 5 días hábiles para el diagnóstico; reparación o reemplazo en hasta 15 días hábiles |
 | Costo de envío en garantía | a cargo de Luminica |
 | Arrepentimiento | 10 días corridos desde la entrega o desde la contratación del servicio; reintegro total, envío incluido, en hasta 10 días hábiles desde que se recibe el producto devuelto |
