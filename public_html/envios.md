@@ -51,7 +51,7 @@ El día del despacho enviamos al correo informado en la solicitud el código de 
 
 1. **Solicitud.** Completás el formulario de solicitud de pedido con los productos, las cantidades y el domicilio de entrega. La solicitud no constituye una compra confirmada.
 2. **Aprobación del directorio.** El directorio de Luminica revisa la solicitud, la disponibilidad y el costo de envío, y responde por correo en hasta 3 días hábiles.
-3. **Confirmación.** Si la solicitud se aprueba, recibís por correo el presupuesto final con productos, envío y formas de pago, válido por 15 días corridos. El pedido queda confirmado cuando respondés aceptándolo, y el pago, o el anticipo del 50 % en productos "Sobre pedido", debe acreditarse dentro de los 3 días hábiles siguientes.
+3. **Confirmación.** Si la solicitud resulta aprobada, recibís por correo el presupuesto final con productos, envío y formas de pago, válido por 15 días corridos. El pedido queda confirmado cuando respondés aceptándolo, y el pago, o el anticipo del 50 % en productos "Sobre pedido", debe acreditarse dentro de los 3 días hábiles siguientes.
 4. **Despacho.** Con el pago acreditado, preparamos y despachamos el pedido en los plazos indicados y te enviamos el código de seguimiento por correo.
 
 Para iniciar un pedido, completá la [solicitud de pedido](https://luminica.site/solicitar-pedido.md). Las condiciones completas están en las [bases y condiciones](https://luminica.site/bases-y-condiciones.md).
