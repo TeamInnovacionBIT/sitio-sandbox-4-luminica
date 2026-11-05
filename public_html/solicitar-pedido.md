@@ -2,7 +2,7 @@
 
 ## Aviso importante
 
-Todo pedido queda sujeto a la aprobación del directorio de Luminica. Esta solicitud no constituye una compra confirmada: el pedido se confirma recién cuando el directorio lo aprueba, recibís el presupuesto final por correo y respondés aceptándolo.
+Todo pedido queda sujeto a la aprobación del directorio de Luminica. Esta solicitud no constituye una compra confirmada: el pedido se confirma recién cuando el directorio da su aprobación, recibís el presupuesto final por correo y respondés aceptándolo.
 
 Completá el formulario con tus datos, el domicilio de entrega y el detalle de los productos. El directorio de Luminica responde por correo en hasta 3 días hábiles con la aprobación y el presupuesto final, válido por 15 días corridos. El monto mínimo de pedido es de $ 60.000. También podés enviar los mismos datos por correo a hola@luminica.site.
 
