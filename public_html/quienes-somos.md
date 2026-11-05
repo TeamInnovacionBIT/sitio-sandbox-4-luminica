@@ -42,7 +42,7 @@ Hoy el catálogo reúne 27 artículos en cuatro líneas de producto, con datos t
 
 ## El directorio
 
-Luminica se gobierna mediante un directorio de 5 miembros. El directorio fija la política comercial, el catálogo y los precios, y aprueba cada solicitud de pedido antes de su confirmación. Revisa las solicitudes todos los días hábiles y responde por correo en hasta 3 días hábiles desde la recepción de una solicitud completa.
+Luminica se gobierna mediante un directorio de 5 miembros. El directorio fija la política comercial, el catálogo y los precios, y da su aprobación a cada solicitud de pedido antes de su confirmación. Revisa las solicitudes todos los días hábiles y responde por correo en hasta 3 días hábiles desde la recepción de una solicitud completa.
 
 La aprobación permite verificar la disponibilidad real, el costo de envío y la compatibilidad técnica de los productos pedidos antes de emitir el presupuesto final.
 
