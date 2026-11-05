@@ -7,5 +7,6 @@
 ## Catálogo
 
 - [Lámparas y luminarias LED](https://luminica.site/lamparas.md): lámparas, tubos, paneles, plafones y proyectores LED con datos técnicos, precios en ARS y disponibilidad.
+- [Iluminación para interiores](https://luminica.site/iluminacion-interiores.md): proyecto lumínico por ambiente, asesoría y kits de iluminación con plazos y precios en ARS.
 
 ## Compras y envíos
