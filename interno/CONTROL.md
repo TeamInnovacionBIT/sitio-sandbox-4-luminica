@@ -9,3 +9,4 @@
 | Energía solar | public_html/energia-solar/index.html | public_html/energia-solar.md | SOLAR-H | SOLAR-M | 2026-11-05 | sí | |
 | Pantallas LED | public_html/pantallas-led/index.html | public_html/pantallas-led.md | LED-H | LED-M | 2026-11-05 | sí | |
 | Envíos a todo el país | public_html/envios/index.html | public_html/envios.md | ENVIOS-H | ENVIOS-M | 2026-11-05 | sí | |
+| Solicitar pedido | public_html/solicitar-pedido/index.html | public_html/solicitar-pedido.md | PEDIDO-H | PEDIDO-M | 2026-11-05 | sí | Equivalencia de formato: el formulario HTML se representa en el MD como tablas campo / tipo de dato / obligatorio, con las mismas etiquetas y en el mismo orden. |

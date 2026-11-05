@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Solicitar pedido | Luminica</title>
+<meta name="description" content="Formulario de solicitud de pedido de Luminica. Cada pedido queda sujeto a la aprobación del directorio, que responde en hasta 3 días hábiles.">
+<link rel="canonical" href="https://luminica.site/solicitar-pedido/">
+<link rel="alternate" type="text/markdown" href="/solicitar-pedido.md" title="Versión Markdown">
+<link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/css/estilos.css">
+<meta property="og:title" content="Solicitar pedido | Luminica">
+<meta property="og:description" content="Formulario de solicitud de pedido de Luminica. Cada pedido queda sujeto a la aprobación del directorio, que responde en hasta 3 días hábiles.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://luminica.site/solicitar-pedido/">
+<meta property="og:locale" content="es_AR">
+<meta property="og:site_name" content="Luminica">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://luminica.site/solicitar-pedido/#pagina",
+      "url": "https://luminica.site/solicitar-pedido/",
+      "name": "Solicitar un pedido a Luminica",
+      "inLanguage": "es-AR",
+      "breadcrumb": { "@id": "https://luminica.site/solicitar-pedido/#migas" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://luminica.site/solicitar-pedido/#migas",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://luminica.site/" },
+        { "@type": "ListItem", "position": 2, "name": "Solicitar pedido", "item": "https://luminica.site/solicitar-pedido/" }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<header class="cabecera">
+  <div class="contenedor cabecera__fila">
+    <a class="marca" href="/"><img src="/img/logo.svg" alt="Luminica, ir al inicio" width="210" height="50"></a>
+    <nav aria-label="Menú principal">
+      <ul class="menu">
+        <li><a href="/lamparas/">Lámparas y luminarias LED</a></li>
+        <li><a href="/iluminacion-interiores/">Iluminación para interiores</a></li>
+        <li><a href="/energia-solar/">Energía solar</a></li>
+        <li><a href="/pantallas-led/">Pantallas LED</a></li>
+        <li><a href="/envios/">Envíos a todo el país</a></li>
+        <li><a href="/contacto/">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<nav aria-label="Migas de pan" class="migas contenedor">
+  <ol>
+    <li><a href="/">Inicio</a></li>
+    <li><span aria-current="page">Solicitar pedido</span></li>
+  </ol>
+</nav>
+<main id="contenido" class="contenedor">
+  <article>
+    <h1>Solicitar un pedido a Luminica</h1>
+
+    <section class="aviso" role="note" aria-labelledby="aviso-titulo">
+      <h2 id="aviso-titulo">Aviso importante</h2>
+      <p>Todo pedido queda sujeto a la aprobación del directorio de Luminica. Esta solicitud no constituye una compra confirmada: el pedido se confirma recién cuando el directorio lo aprueba, recibís el presupuesto final por correo y respondés aceptándolo.</p>
+    </section>
+
+    <p>Completá el formulario con tus datos, el domicilio de entrega y el detalle de los productos. El directorio de Luminica responde por correo en hasta 3 días hábiles con la aprobación y el presupuesto final, válido por 15 días corridos. El monto mínimo de pedido es de $ 60.000. También podés enviar los mismos datos por correo a <a href="mailto:hola@luminica.site">hola@luminica.site</a>.</p>
+
+    <section aria-labelledby="titulo-formulario">
+      <h2 id="titulo-formulario">Formulario de solicitud de pedido</h2>
+      <p>El formulario no solicita datos de tarjetas, claves ni documentos de identidad. Los campos obligatorios están indicados en cada bloque.</p>
+
+      <form class="formulario" method="dialog" aria-labelledby="titulo-formulario">
+
+        <fieldset>
+          <legend>Datos del solicitante</legend>
+          <div class="campos">
+            <div class="campo">
+              <label for="nombre">Nombre <span class="obligatorio">(obligatorio)</span></label>
+              <input type="text" id="nombre" name="nombre" autocomplete="given-name" maxlength="60" required>
+            </div>
+            <div class="campo">
+              <label for="apellido">Apellido <span class="obligatorio">(obligatorio)</span></label>
+              <input type="text" id="apellido" name="apellido" autocomplete="family-name" maxlength="60" required>
+            </div>
+            <div class="campo">
+              <label for="correo">Correo electrónico <span class="obligatorio">(obligatorio)</span></label>
+              <input type="email" id="correo" name="correo" autocomplete="email" inputmode="email" maxlength="120" required>
+            </div>
+            <div class="campo">
+              <label for="telefono">Teléfono de contacto <span class="obligatorio">(obligatorio)</span></label>
+              <input type="tel" id="telefono" name="telefono" autocomplete="tel" inputmode="tel" minlength="8" maxlength="20" pattern="\+?[0-9 ]{8,20}" required>
+            </div>
+            <fieldset class="campo campo--ancho">
+              <legend class="rotulo">Tipo de cliente <span class="obligatorio">(obligatorio)</span></legend>
+              <ul class="opciones">
+                <li class="opcion"><input type="radio" id="tipo-particular" name="tipo-cliente" value="particular" required><label for="tipo-particular">Particular</label></li>
+                <li class="opcion"><input type="radio" id="tipo-empresa" name="tipo-cliente" value="empresa"><label for="tipo-empresa">Empresa</label></li>
+              </ul>
+            </fieldset>
+            <div class="campo">
+              <label for="empresa">Nombre de la empresa</label>
+              <input type="text" id="empresa" name="empresa" autocomplete="organization" maxlength="100">
+            </div>
+            <div class="campo">
+              <label for="rubro">Rubro</label>
+              <select id="rubro" name="rubro" autocomplete="off">
+                <option value="">Elegí una opción</option>
+                <option>Arquitectura y diseño</option>
+                <option>Construcción</option>
+                <option>Comercio</option>
+                <option>Industria</option>
+                <option>Eventos y espectáculos</option>
+                <option>Producción agropecuaria</option>
+                <option>Hogar</option>
+                <option>Otro</option>
+              </select>
+            </div>
+            <div class="campo">
+              <label for="cargo">Cargo</label>
+              <input type="text" id="cargo" name="cargo" autocomplete="organization-title" maxlength="60">
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Domicilio de entrega</legend>
+          <div class="campos campos--tres">
+            <div class="campo">
+              <label for="calle">Calle <span class="obligatorio">(obligatorio)</span></label>
+              <input type="text" id="calle" name="calle" autocomplete="address-line1" maxlength="100" required>
+            </div>
+            <div class="campo">
+              <label for="numero">Número <span class="obligatorio">(obligatorio)</span></label>
+              <input type="text" id="numero" name="numero" autocomplete="off" inputmode="numeric" pattern="[0-9]{1,6}" maxlength="6" required>
+            </div>
+            <div class="campo">
+              <label for="piso">Piso</label>
+              <input type="text" id="piso" name="piso" autocomplete="address-line2" maxlength="4">
+            </div>
+            <div class="campo">
+              <label for="departamento">Departamento</label>
+              <input type="text" id="departamento" name="departamento" autocomplete="address-line3" maxlength="4">
+            </div>
+            <div class="campo">
+              <label for="codigo-postal">Código postal <span class="obligatorio">(obligatorio)</span></label>
+              <input type="text" id="codigo-postal" name="codigo-postal" autocomplete="postal-code" pattern="[0-9]{4}|[A-Za-z][0-9]{4}[A-Za-z]{3}" minlength="4" maxlength="8" required>
+            </div>
+            <div class="campo">
+              <label for="localidad">Localidad <span class="obligatorio">(obligatorio)</span></label>
+              <input type="text" id="localidad" name="localidad" autocomplete="address-level2" maxlength="80" required>
+            </div>
+            <div class="campo">
+              <label for="provincia">Provincia <span class="obligatorio">(obligatorio)</span></label>
+              <select id="provincia" name="provincia" autocomplete="address-level1" required>
+                <option value="">Elegí una opción</option>
+                <option>Buenos Aires</option>
+                <option>Catamarca</option>
+                <option>Chaco</option>
+                <option>Chubut</option>
+                <option>Ciudad Autónoma de Buenos Aires</option>
+                <option>Córdoba</option>
+                <option>Corrientes</option>
+                <option>Entre Ríos</option>
+                <option>Formosa</option>
+                <option>Jujuy</option>
+                <option>La Pampa</option>
+                <option>La Rioja</option>
+                <option>Mendoza</option>
+                <option>Misiones</option>
+                <option>Neuquén</option>
+                <option>Río Negro</option>
+                <option>Salta</option>
+                <option>San Juan</option>
+                <option>San Luis</option>
+                <option>Santa Cruz</option>
+                <option>Santa Fe</option>
+                <option>Santiago del Estero</option>
+                <option>Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
+                <option>Tucumán</option>
+              </select>
+            </div>
+            <div class="campo">
+              <label for="referencias">Referencias de entrega</label>
+              <input type="text" id="referencias" name="referencias" autocomplete="off" maxlength="200">
+            </div>
+            <div class="campo">
+              <label for="franja">Franja horaria de recepción <span class="obligatorio">(obligatorio)</span></label>
+              <select id="franja" name="franja" autocomplete="off" required>
+                <option value="">Elegí una opción</option>
+                <option>De 8 a 12 h</option>
+                <option>De 12 a 16 h</option>
+                <option>De 16 a 20 h</option>
+                <option>Sin preferencia</option>
+              </select>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Detalle del pedido</legend>
+          <p class="ayuda">Los códigos de producto figuran en la tabla de cada categoría, con el formato LUM-LAM-001. Los datos fiscales para el comprobante se solicitan por correo después de la aprobación.</p>
+          <div class="campos">
+            <fieldset class="campo campo--ancho">
+              <legend class="rotulo">Categorías de interés</legend>
+              <ul class="opciones">
+                <li class="opcion"><input type="checkbox" id="cat-lamparas" name="categorias" value="lamparas"><label for="cat-lamparas">Lámparas y luminarias LED</label></li>
+                <li class="opcion"><input type="checkbox" id="cat-interiores" name="categorias" value="iluminacion-interiores"><label for="cat-interiores">Iluminación para interiores</label></li>
+                <li class="opcion"><input type="checkbox" id="cat-solar" name="categorias" value="energia-solar"><label for="cat-solar">Energía solar</label></li>
+                <li class="opcion"><input type="checkbox" id="cat-led" name="categorias" value="pantallas-led"><label for="cat-led">Pantallas LED</label></li>
+              </ul>
+            </fieldset>
+            <div class="campo">
+              <label for="codigo-1">Código de producto 1 <span class="obligatorio">(obligatorio)</span></label>
+              <input type="text" id="codigo-1" name="codigo-1" autocomplete="off" pattern="LUM-(LAM|INT|SOL|LED)-[0-9]{3}" maxlength="11" required>
+            </div>
+            <div class="campo">
+              <label for="cantidad-1">Cantidad 1 <span class="obligatorio">(obligatorio)</span></label>
+              <input type="number" id="cantidad-1" name="cantidad-1" autocomplete="off" inputmode="numeric" min="1" max="999" step="1" required>
+            </div>
+            <div class="campo">
+              <label for="codigo-2">Código de producto 2</label>
+              <input type="text" id="codigo-2" name="codigo-2" autocomplete="off" pattern="LUM-(LAM|INT|SOL|LED)-[0-9]{3}" maxlength="11">
+            </div>
+            <div class="campo">
+              <label for="cantidad-2">Cantidad 2</label>
+              <input type="number" id="cantidad-2" name="cantidad-2" autocomplete="off" inputmode="numeric" min="1" max="999" step="1">
+            </div>
+            <div class="campo">
+              <label for="codigo-3">Código de producto 3</label>
+              <input type="text" id="codigo-3" name="codigo-3" autocomplete="off" pattern="LUM-(LAM|INT|SOL|LED)-[0-9]{3}" maxlength="11">
+            </div>
+            <div class="campo">
+              <label for="cantidad-3">Cantidad 3</label>
+              <input type="number" id="cantidad-3" name="cantidad-3" autocomplete="off" inputmode="numeric" min="1" max="999" step="1">
+            </div>
+            <div class="campo">
+              <label for="uso">Uso previsto <span class="obligatorio">(obligatorio)</span></label>
+              <select id="uso" name="uso" autocomplete="off" required>
+                <option value="">Elegí una opción</option>
+                <option>Vivienda</option>
+                <option>Oficina</option>
+                <option>Comercio</option>
+                <option>Industria</option>
+                <option>Obra o proyecto</option>
+                <option>Evento</option>
+                <option>Otro</option>
+              </select>
+            </div>
+            <div class="campo">
+              <label for="presupuesto">Presupuesto estimado (ARS)</label>
+              <input type="number" id="presupuesto" name="presupuesto" autocomplete="off" inputmode="numeric" min="60000" max="999999999" step="1">
+            </div>
+            <div class="campo">
+              <label for="fecha-entrega">Fecha deseada de entrega</label>
+              <input type="date" id="fecha-entrega" name="fecha-entrega" autocomplete="off">
+            </div>
+            <div class="campo">
+              <label for="comprobante">Tipo de comprobante requerido <span class="obligatorio">(obligatorio)</span></label>
+              <select id="comprobante" name="comprobante" autocomplete="off" required>
+                <option value="">Elegí una opción</option>
+                <option>Factura A</option>
+                <option>Factura B</option>
+              </select>
+            </div>
+            <fieldset class="campo campo--ancho">
+              <legend class="rotulo">Forma de pago preferida <span class="obligatorio">(obligatorio)</span></legend>
+              <ul class="opciones">
+                <li class="opcion"><input type="radio" id="pago-transferencia" name="forma-pago" value="transferencia" required><label for="pago-transferencia">Transferencia bancaria</label></li>
+                <li class="opcion"><input type="radio" id="pago-debito" name="forma-pago" value="debito"><label for="pago-debito">Tarjeta de débito mediante enlace de pago</label></li>
+                <li class="opcion"><input type="radio" id="pago-credito" name="forma-pago" value="credito"><label for="pago-credito">Tarjeta de crédito mediante enlace de pago</label></li>
+              </ul>
+            </fieldset>
+            <div class="campo">
+              <label for="origen">Cómo conociste Luminica</label>
+              <select id="origen" name="origen" autocomplete="off">
+                <option value="">Elegí una opción</option>
+                <option>Buscador web</option>
+                <option>Asistente de inteligencia artificial</option>
+                <option>Redes sociales</option>
+                <option>Recomendación</option>
+                <option>Otro</option>
+              </select>
+            </div>
+            <div class="campo campo--ancho">
+              <label for="comentarios">Comentarios</label>
+              <textarea id="comentarios" name="comentarios" autocomplete="off" maxlength="1000" rows="5"></textarea>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Aceptaciones</legend>
+          <ul class="opciones">
+            <li class="opcion campo--ancho"><input type="checkbox" id="acepta-bases" name="acepta-bases" value="si" required><label for="acepta-bases">Acepto las <a href="/bases-y-condiciones/">bases y condiciones</a> de Luminica <span class="obligatorio">(obligatorio)</span></label></li>
+            <li class="opcion campo--ancho"><input type="checkbox" id="acepta-directorio" name="acepta-directorio" value="si" required><label for="acepta-directorio">Entiendo que el pedido requiere la aprobación del directorio de Luminica y que esta solicitud no constituye una compra confirmada <span class="obligatorio">(obligatorio)</span></label></li>
+            <li class="opcion campo--ancho"><input type="checkbox" id="acepta-contacto" name="acepta-contacto" value="si" required><label for="acepta-contacto">Autorizo a Luminica a contactarme por correo electrónico sobre esta solicitud <span class="obligatorio">(obligatorio)</span></label></li>
+          </ul>
+        </fieldset>
+
+        <p class="formulario__enviar"><button type="submit" class="boton">Enviar solicitud de pedido</button></p>
+      </form>
+
+      <p>Las condiciones de compra están en las <a href="/bases-y-condiciones/">bases y condiciones</a> y los costos de entrega, en <a href="/envios/">envíos a todo el país</a>.</p>
+    </section>
+  </article>
+  <div class="pie-contenido">
+    <p class="referencia">Referencia: PEDIDO-H</p>
+    <p><a href="/solicitar-pedido.md" type="text/markdown">Ver esta página en formato Markdown</a></p>
+  </div>
+</main>
+<footer class="pie">
+  <div class="contenedor">
+    <div class="pie__grilla">
+      <nav aria-label="Categorías">
+        <h2>Categorías</h2>
+        <ul>
+          <li><a href="/lamparas/">Lámparas y luminarias LED</a></li>
+          <li><a href="/iluminacion-interiores/">Iluminación para interiores</a></li>
+          <li><a href="/energia-solar/">Energía solar</a></li>
+          <li><a href="/pantallas-led/">Pantallas LED</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Compras y empresa">
+        <h2>Compras y empresa</h2>
+        <ul>
+          <li><a href="/envios/">Envíos a todo el país</a></li>
+          <li><a href="/solicitar-pedido/" aria-current="page">Solicitar pedido</a></li>
+          <li><a href="/bases-y-condiciones/">Bases y condiciones</a></li>
+          <li><a href="/quienes-somos/">Quiénes somos</a></li>
+          <li><a href="/contacto/">Contacto</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h2>Escribinos</h2>
+        <p><a href="mailto:hola@luminica.site">hola@luminica.site</a></p>
+      </div>
+    </div>
+    <p class="pie__legal">© 2026 Luminica. Todos los derechos reservados.</p>
+  </div>
+</footer>
+</body>
+</html>

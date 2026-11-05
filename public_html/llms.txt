@@ -14,3 +14,4 @@
 ## Compras y envíos
 
 - [Envíos a todo el país](https://luminica.site/envios.md): tarifa nacional única por rango de peso, plazos en días hábiles, embalaje, seguimiento y proceso del pedido.
+- [Solicitar pedido](https://luminica.site/solicitar-pedido.md): aviso de aprobación del directorio y campos del formulario de solicitud de pedido.
