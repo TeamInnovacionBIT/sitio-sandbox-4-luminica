@@ -1,0 +1,22 @@
+# Luminica — configuración de Apache (Hostinger)
+
+# Sin listado de directorios
+Options -Indexes
+
+# Página de error
+ErrorDocument 404 /404.html
+
+# Juego de caracteres y tipos de contenido
+AddDefaultCharset UTF-8
+AddType text/markdown .md
+AddType text/plain .txt
+AddCharset UTF-8 .md .txt .xml .html .css .svg
+DirectoryIndex index.html
+
+# Redirección permanente a https y a la versión sin www
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTPS} off [OR]
+  RewriteCond %{HTTP_HOST} ^www\. [NC]
+  RewriteRule ^ https://luminica.site%{REQUEST_URI} [L,R=301]
+</IfModule>
