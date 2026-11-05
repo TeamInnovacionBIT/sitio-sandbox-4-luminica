@@ -12,3 +12,5 @@
 - [Pantallas LED](https://luminica.site/pantallas-led.md): gabinetes LED para interior y exterior con pitch, brillo, protección IP, consumo y precio por gabinete.
 
 ## Compras y envíos
+
+- [Envíos a todo el país](https://luminica.site/envios.md): tarifa nacional única por rango de peso, plazos en días hábiles, embalaje, seguimiento y proceso del pedido.
