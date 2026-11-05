@@ -4,3 +4,4 @@
 
 | Página | Archivo HTML | Archivo MD | Código HTML | Código MD | Última modificación | Paridad verificada | Observaciones |
 |---|---|---|---|---|---|---|---|
+| Lámparas y luminarias LED | public_html/lamparas/index.html | public_html/lamparas.md | LAMPARAS-H | LAMPARAS-M | 2026-11-05 | sí | |
