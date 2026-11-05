@@ -4,6 +4,7 @@
 
 | Página | Archivo HTML | Archivo MD | Código HTML | Código MD | Última modificación | Paridad verificada | Observaciones |
 |---|---|---|---|---|---|---|---|
+| Inicio | public_html/index.html | public_html/index.md | INICIO-H | INICIO-M | 2026-11-05 | sí | La home no lleva migas de pan ni BreadcrumbList (es la raíz). |
 | Lámparas y luminarias LED | public_html/lamparas/index.html | public_html/lamparas.md | LAMPARAS-H | LAMPARAS-M | 2026-11-05 | sí | |
 | Iluminación para interiores | public_html/iluminacion-interiores/index.html | public_html/iluminacion-interiores.md | INTERIORES-H | INTERIORES-M | 2026-11-05 | sí | |
 | Energía solar | public_html/energia-solar/index.html | public_html/energia-solar.md | SOLAR-H | SOLAR-M | 2026-11-05 | sí | |
