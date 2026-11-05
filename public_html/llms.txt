@@ -4,6 +4,7 @@
 
 ## Información institucional
 
+- [Quiénes somos](https://luminica.site/quienes-somos.md): historia desde 2014, líneas de negocio, forma de trabajo y rol del directorio en la aprobación de pedidos.
 - [Contacto](https://luminica.site/contacto.md): correo hola@luminica.site como único canal, plazo de respuesta y datos para incluir en la consulta.
 
 ## Catálogo
