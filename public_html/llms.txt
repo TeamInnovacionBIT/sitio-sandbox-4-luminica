@@ -4,6 +4,8 @@
 
 ## Información institucional
 
+- [Contacto](https://luminica.site/contacto.md): correo hola@luminica.site como único canal, plazo de respuesta y datos para incluir en la consulta.
+
 ## Catálogo
 
 - [Lámparas y luminarias LED](https://luminica.site/lamparas.md): lámparas, tubos, paneles, plafones y proyectores LED con datos técnicos, precios en ARS y disponibilidad.

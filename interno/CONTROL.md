@@ -11,3 +11,4 @@
 | Envíos a todo el país | public_html/envios/index.html | public_html/envios.md | ENVIOS-H | ENVIOS-M | 2026-11-05 | sí | |
 | Solicitar pedido | public_html/solicitar-pedido/index.html | public_html/solicitar-pedido.md | PEDIDO-H | PEDIDO-M | 2026-11-05 | sí | Equivalencia de formato: el formulario HTML se representa en el MD como tablas campo / tipo de dato / obligatorio, con las mismas etiquetas y en el mismo orden. |
 | Bases y condiciones | public_html/bases-y-condiciones/index.html | public_html/bases-y-condiciones.md | BYC-H | BYC-M | 2026-11-05 | sí | |
+| Contacto | public_html/contacto/index.html | public_html/contacto.md | CONTACTO-H | CONTACTO-M | 2026-11-05 | sí | |
