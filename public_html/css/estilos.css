@@ -373,6 +373,15 @@ table {
   font-size: var(--texto-s);
 }
 
+/* Tablas con muchas columnas y celdas de texto largo: se desplazan en vez de comprimirse. */
+table.tabla-ancha {
+  min-width: 60rem;
+}
+
+td.texto-largo {
+  min-width: 18rem;
+}
+
 caption {
   caption-side: top;
   text-align: left;
@@ -605,6 +614,14 @@ td.num {
   font-size: var(--texto-m);
   margin: 0 0 var(--esp-3);
   color: var(--color-sobre-grafito);
+}
+
+.pie p + h2 {
+  margin-top: var(--esp-5);
+}
+
+.pie address {
+  font-style: normal;
 }
 
 .pie ul {

@@ -53,6 +53,7 @@ Con la batería cargada, la luminaria LUM-SOL-007 funciona hasta 12 horas en mod
 
 ## Otras categorías y envíos
 
+- [Diseño de iluminación para interiores](https://luminica.site/diseno-de-iluminacion.md): proyecto a medida con visita, planos, renders y lista de productos.
 - [Lámparas y luminarias LED](https://luminica.site/lamparas.md): lámparas, tubos, paneles, plafones y proyectores LED.
 - [Iluminación para interiores](https://luminica.site/iluminacion-interiores.md): proyectos lumínicos, asesoría y kits por ambiente.
 - [Pantallas LED](https://luminica.site/pantallas-led.md): gabinetes LED para interior y exterior.

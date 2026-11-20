@@ -1,6 +1,6 @@
 # Luminica (luminica.site)
 
-Sitio estático de Luminica: iluminación, energía solar y pantallas LED. Cada página se publica en HTML y en Markdown, con el mismo texto en las dos versiones.
+Sitio estático de Luminica: diseño de iluminación, iluminación, energía solar y pantallas LED. Cada página se publica en HTML y en Markdown, con el mismo texto en las dos versiones.
 
 La documentación completa (decisiones, verificaciones y checklists) está en [`interno/DOCUMENTACION.md`](interno/DOCUMENTACION.md).
 
@@ -8,7 +8,7 @@ La documentación completa (decisiones, verificaciones y checklists) está en [`
 
 | Ruta | Qué contiene | Se publica |
 | --- | --- | --- |
-| `public_html/` | El sitio: 10 páginas en HTML (`slug/index.html`) y Markdown (`slug.md`), `404.html`, `css/estilos.css`, `img/`, `llms.txt`, `robots.txt`, `sitemap.xml`, `.htaccess` y `BingSiteAuth.xml` | Sí, en Hostinger |
+| `public_html/` | El sitio: 11 páginas en HTML (`slug/index.html`) y Markdown (`slug.md`), `404.html`, `css/estilos.css`, `img/`, `llms.txt`, `robots.txt`, `sitemap.xml`, `.htaccess` y `BingSiteAuth.xml` | Sí, en Hostinger |
 | `interno/` | `catalogo-maestro.md` (fuente única de precios, plazos y valores), `CONTROL.md` (paridad HTML/MD por página), `DOCUMENTACION.md` y un `.htaccess` que bloquea el acceso | No |
 
 Quedan fuera del repositorio (`.gitignore`): la carpeta `.claude/` y los documentos Word.
@@ -26,6 +26,7 @@ Quedan fuera del repositorio (`.gitignore`): la carpeta `.claude/` y los documen
 | Página | HTML | Markdown | Código |
 | --- | --- | --- | --- |
 | Inicio | `/` | `/index.md` | INICIO |
+| Diseño de iluminación para interiores | `/diseno-de-iluminacion/` | `/diseno-de-iluminacion.md` | DISENO |
 | Quiénes somos | `/quienes-somos/` | `/quienes-somos.md` | QUIENES |
 | Lámparas y luminarias LED | `/lamparas/` | `/lamparas.md` | LAMPARAS |
 | Iluminación para interiores | `/iluminacion-interiores/` | `/iluminacion-interiores.md` | INTERIORES |
@@ -74,7 +75,7 @@ La lista completa y qué cambiar en `.htaccess` si algo no responde como se espe
 
 **Al agregar una página:** crear `slug/index.html` y `slug.md` con un código de referencia nuevo (`-H` y `-M`), con `canonical`, `alternate` y el enlace visible al Markdown; sumarla a `llms.txt`, a `sitemap.xml`, a la navegación si corresponde y a `interno/CONTROL.md`.
 
-**Restricciones de contenido:** el sitio no publica domicilio, localidad, teléfono, CUIT, certificaciones, marcas de terceros, nombres de personas ni reseñas. El único contacto es hola@luminica.site.
+**Restricciones de contenido:** el sitio publica solo el domicilio de la sede (Junín de los Andes, Neuquén); no publica teléfono, CUIT, certificaciones, marcas de terceros, nombres de personas ni reseñas. El único contacto es hola@luminica.site.
 
 ## Versiones
 
@@ -83,3 +84,4 @@ Versionado mayor.menor.parche, con una etiqueta `vX.Y.Z` por versión. El regist
 | Versión | Fecha | Descripción |
 | --- | --- | --- |
 | 1.0.0 | 2026-11-05 | Publicación inicial del sitio Luminica |
+| 1.1.0 | 2026-11-20 | Domicilio de la empresa y nueva línea "Diseño de iluminación para interiores" con página propia |

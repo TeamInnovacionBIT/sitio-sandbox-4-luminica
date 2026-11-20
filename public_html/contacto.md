@@ -14,6 +14,7 @@ Respondemos todas las consultas dentro de los 2 días hábiles. Las solicitudes 
 - Peso o medidas aproximadas, si querés que estimemos el costo de envío.
 - Para garantías: descripción de la falla y fotos o un video del producto.
 - Para proyectos lumínicos y asesorías: plano o croquis con medidas, altura del techo y fotos del ambiente.
+- Para el diseño de iluminación: el plan que te interesa, los ambientes que querés iluminar y la localidad donde están.
 
 ## Asuntos sugeridos
 
@@ -23,7 +24,12 @@ Para que tu correo llegue antes a la persona indicada, usá uno de estos asuntos
 - Presupuesto
 - Pedido en curso
 - Garantía
+- Diseño de iluminación
 - Arrepentimiento o cambio
+
+## Dónde estamos
+
+La sede de Luminica está en Ruta 40, a metros de la Ruta 52, Junín de los Andes, provincia de Neuquén, Argentina. Desde ahí salen las visitas del diseño de iluminación. La sede no tiene atención al público: todas las consultas se reciben por correo.
 
 ## Para tener en cuenta
 

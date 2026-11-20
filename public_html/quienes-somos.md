@@ -1,12 +1,12 @@
 # Quiénes somos: Luminica, iluminación y energía desde 2014
 
-Luminica es una empresa argentina que comercializa productos de iluminación y energía desde 2014. Vendemos en todo el país con la marca propia Luminica y precios finales en pesos argentinos.
+Luminica es una empresa argentina que comercializa productos de iluminación y energía desde 2014, con sede en Junín de los Andes, provincia de Neuquén. Vendemos en todo el país con la marca propia Luminica y precios finales en pesos argentinos.
 
 ## Nuestra historia
 
-Luminica comenzó en 2014 con la venta de lámparas LED para reemplazar fuentes de luz tradicionales en viviendas y comercios. En 2017 sumó la línea de iluminación para interiores, con proyectos lumínicos y kits por ambiente. En 2020 incorporó la línea de energía solar para sistemas aislados de la red y, en 2023, la de pantallas LED para interior y exterior.
+Luminica comenzó en 2014 con la venta de lámparas LED para reemplazar fuentes de luz tradicionales en viviendas y comercios. En 2017 sumó la línea de iluminación para interiores, con proyectos lumínicos y kits por ambiente. En 2020 incorporó la línea de energía solar para sistemas aislados de la red y, en 2023, la de pantallas LED para interior y exterior. En 2026 lanzó el diseño de iluminación para interiores con visita, hoy su servicio estrella.
 
-Hoy el catálogo reúne 27 artículos en cuatro líneas de producto, con datos técnicos, precios y disponibilidad publicados en el sitio.
+Hoy el catálogo reúne 30 artículos en cinco líneas de producto, con datos técnicos, precios y disponibilidad publicados en el sitio.
 
 ## Datos de Luminica
 
@@ -15,8 +15,9 @@ Hoy el catálogo reúne 27 artículos en cuatro líneas de producto, con datos t
 | Dato | Valor |
 |---|---|
 | Año de fundación | 2014 |
-| Líneas de producto | 4 |
-| Artículos en catálogo | 27 |
+| Dirección | Ruta 40, a metros de la Ruta 52, Junín de los Andes, provincia de Neuquén, Argentina |
+| Líneas de producto | 5 |
+| Artículos en catálogo | 30 |
 | Cobertura de envíos | Todo el país, con tarifa nacional única |
 | Miembros del directorio | 5 |
 | Plazo de aprobación de pedidos | Hasta 3 días hábiles |
@@ -27,6 +28,7 @@ Hoy el catálogo reúne 27 artículos en cuatro líneas de producto, con datos t
 
 ## Líneas de negocio
 
+- [Diseño de iluminación para interiores](https://luminica.site/diseno-de-iluminacion.md): proyecto a medida con visita, planos, renders y lista de productos. 3 planes.
 - [Lámparas y luminarias LED](https://luminica.site/lamparas.md): lámparas, tubos, paneles, plafones y proyectores para hogar, comercio y exterior. 7 artículos.
 - [Iluminación para interiores](https://luminica.site/iluminacion-interiores.md): proyecto lumínico por ambiente, asesoría y kits de iluminación. 7 artículos.
 - [Energía solar](https://luminica.site/energia-solar.md): paneles, inversores, baterías, controladores, kits aislados y luminarias solares. 7 artículos.
@@ -37,7 +39,7 @@ Hoy el catálogo reúne 27 artículos en cuatro líneas de producto, con datos t
 - Publicamos los datos técnicos completos de cada artículo para que puedas comparar antes de pedir.
 - Cada producto tiene un código único con prefijo LUM, que se usa en presupuestos, pedidos y garantías.
 - Atendemos solo por correo, para que cada consulta y cada acuerdo queden por escrito.
-- Los proyectos lumínicos y las asesorías se realizan a distancia, a partir de planos, medidas y fotos.
+- Los proyectos lumínicos por ambiente y las asesorías se realizan a distancia, a partir de planos, medidas y fotos. El diseño de iluminación incluye visitas hasta 60 km de nuestra sede.
 - Despachamos a todo el país con embalaje reforzado, seguro de transporte y seguimiento por correo.
 
 ## El directorio

@@ -4,7 +4,8 @@
 
 | Versión | Fecha | Sector solicitante | Descripción | Estado |
 |---|---|---|---|---|
-| 1.0.0 | 2026-11-05 | Innovación | Publicación inicial del sitio Luminica | vigente |
+| 1.0.0 | 2026-11-05 | Innovación | Publicación inicial del sitio Luminica | reemplazada |
+| 1.1.0 | 2026-11-20 | Innovación | Domicilio de la empresa y nueva línea "Diseño de iluminación para interiores" con página propia | vigente |
 
 Criterios de versionado (mayor.menor.parche, con un tag de Git `vX.Y.Z` por versión):
 
@@ -14,7 +15,7 @@ Criterios de versionado (mayor.menor.parche, con un tag de Git `vX.Y.Z` por vers
 
 ## 2. Estructura del repositorio
 
-- `public_html/`: único directorio publicado (raíz del dominio en Hostinger).
+- `public_html/`: único directorio publicado (raíz del dominio en Hostinger). Desde la versión 1.1.0 tiene 11 páginas con par HTML/MD.
 - `interno/`: no se publica. Contiene `CONTROL.md`, `DOCUMENTACION.md`, `catalogo-maestro.md` y un `.htaccess` con `Require all denied` como defensa adicional si se subiera por error.
 - `.claude/launch.json` (configuración local del servidor de vista previa) está excluido de Git mediante `.git/info/exclude` y no forma parte del sitio.
 
@@ -27,10 +28,24 @@ La estructura sigue exactamente la del pedido; no hubo que adaptarla porque el d
 Todos los valores numéricos están en `interno/catalogo-maestro.md` (sección 1 y 2). Resumen: fundación 2014; 4 líneas; 27 artículos (7 + 7 + 7 + 6); directorio de 5 miembros; aprobación en hasta 3 días hábiles; mínimo de pedido $ 60.000; presupuestos válidos 15 días corridos; pago en 3 días hábiles desde la confirmación; anticipo del 50 % en "Sobre pedido"; despacho "En stock" en 2 días hábiles; plazo adicional "Sobre pedido" de hasta 20 días hábiles; garantía mínima de productos 12 meses (servicios 3 meses con 2 revisiones); arrepentimiento 10 días corridos con reintegro en 10 días hábiles; cambios 30 días corridos; aviso de daños 48 horas; datos conservados 24 meses; aviso de modificación de bases 15 días corridos; respuesta de correo en 2 días hábiles; descuento del 5 % por transferencia; hasta 6 cuotas sin interés.
 
 - Historia: 2014 lámparas LED, 2017 interiores, 2020 energía solar, 2023 pantallas LED.
-- La empresa se presenta como "empresa argentina" (el país está permitido) sin ninguna localidad, provincia, dirección, teléfono, CUIT ni razón social societaria.
+- La empresa se presenta como "empresa argentina" (el país está permitido) sin ninguna localidad, provincia, dirección, teléfono, CUIT ni razón social societaria. Desde la versión 1.1.0 publica su domicilio (ver 3.1.1); teléfono, CUIT y razón social siguen sin publicarse.
 - Los servicios de interiores (proyecto y asesoría) se prestan a distancia, con planos y fotos por correo, para no necesitar una ubicación física ni visitas.
 - La forma de trato es voseo rioplatense en todo el sitio ("completá", "escribinos").
 - Fecha de vigencia de las bases: 5 de noviembre de 2026.
+
+### 3.1.1 Cambios de la versión 1.1.0 (2026-11-20)
+
+Pedido por Innovación. Revierte en parte las prohibiciones de ubicación de la versión 1.0.0.
+
+- **Domicilio:** "Ruta 40, a metros de la Ruta 52, Junín de los Andes, provincia de Neuquén, Argentina". Aparece en el pie de todas las páginas (HTML), en Quiénes somos (bajada y tabla de datos), en Contacto (sección "Dónde estamos"), en Bases y condiciones (cláusula 1.3), en la página de diseño de iluminación, en llms.txt y en el JSON-LD (PostalAddress en el Organization del inicio y de Contacto). Sigue sin publicarse teléfono, CUIT ni razón social, y la sede se declara sin atención al público: el único canal de contacto sigue siendo el correo.
+- **Nueva línea "Diseño de iluminación para interiores"** (/diseno-de-iluminacion/, códigos LUM-DIS-001 a 003, referencia DISENO-H/M). Es el servicio estrella y replica el servicio de la competencia directa (Luminarias Norte, /diseno-de-iluminacion/), tomado solo como inspiración de estructura: consulta, visita, anteproyecto, ajustes, entrega y acompañamiento; tres planes; condiciones; temperatura de color por ambiente; preguntas frecuentes. Los textos, nombres de planes, precios y plazos son propios de Luminica. No se incluyeron los testimonios ni las valoraciones de la página de referencia, porque el sitio no publica reseñas, ni su simulador de temperatura de color, que requiere JavaScript: se reemplazó por una tabla estática.
+- **Tres planes con código propio** para que cada uno se pueda pedir con la solicitud de pedido existente. Artículos en catálogo: 30 (antes 27). Líneas: 5 (antes 4).
+- **Diferenciación con LUM-INT-001 y LUM-INT-002:** esos servicios siguen siendo solo a distancia. El diseño de iluminación agrega visitas hasta 60 km de la sede (más lejos, relevamiento remoto al mismo precio), renders y acompañamiento al instalador. Se explica en una pregunta frecuente de la página nueva.
+- **Navegación:** "Diseño de iluminación" es el primer ítem del menú principal (7 ítems) y de la lista "Categorías" del pie. La línea se enlaza también desde el inicio (tarjeta y fila de destacados con LUM-DIS-002), Quiénes somos, las cuatro páginas de categoría, la página 404 y llms.txt.
+- **Formulario:** el patrón de código acepta LUM-DIS-; se agregó la opción "Diseño de iluminación para interiores" en "Categorías de interés". La cantidad de campos lógicos no cambia (34).
+- **Bases y condiciones:** nueva versión vigente desde el 20 de noviembre de 2026. Se agregaron las cláusulas 1.3 (domicilio), 5.5 (pago 50 % y saldo en el diseño de iluminación) y 11.3 (los cambios que solo agregan productos, servicios o datos de la empresa rigen desde su publicación, para no contradecir el aviso de 15 días de la cláusula 11.1). Se ampliaron 1.2, 7.2 y 9.2.
+- **CSS:** clases nuevas tabla-ancha y texto-largo (la tabla de planes se desplaza de costado en celulares en vez de comprimirse) y estilos para el domicilio en el pie.
+- **Inicio:** el título de sección pasa a "Nuestras cinco líneas de producto".
 
 ### 3.2 Envíos
 
@@ -86,6 +101,14 @@ Se hicieron con comandos de consola puntuales (grep, diff, sed y lecturas de JSO
 - Estructura (en navegador): un `h1` por página, sin saltos de jerarquía, sin ids duplicados, todos los controles con `label` asociado, tablas con caption/thead/tbody y `th` con `scope`, `lang="es-AR"`.
 - Formulario (navegador local, Chromium del panel de Claude): con los campos obligatorios completos, el clic en "Enviar solicitud de pedido" no navega, no agrega parámetros a la URL, no genera pedidos de red y conserva los valores cargados.
 - Responsive: a 375 px de ancho no hay desplazamiento horizontal de la página; las tablas anchas se desplazan dentro de su contenedor.
+
+### 4.1 Verificaciones de la versión 1.1.0 (2026-11-20)
+
+- Paridad palabra por palabra de los 11 pares: idénticos salvo el código de referencia. En Solicitar pedido, los 34 campos y su condición de obligatorio coinciden con las tablas del .md.
+- La tabla de planes de la página nueva es idéntica a la del catálogo maestro; los destacados del inicio coinciden con el maestro.
+- JSON-LD: los 12 bloques parsean; name, description, sku, email y los datos del domicilio aparecen como texto visible.
+- Títulos de menos de 60 caracteres y descripciones de menos de 160 en todas las páginas; sin enlaces internos rotos en HTML, .md, llms.txt ni sitemap.xml (11 URL).
+- Navegador local: un h1, sin ids duplicados, menú de 7 ítems con aria-current en la página nueva, sin desplazamiento horizontal a 375 px.
 
 ## 5. Pendientes de verificación
 

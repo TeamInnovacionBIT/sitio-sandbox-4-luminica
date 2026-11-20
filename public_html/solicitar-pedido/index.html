@@ -46,6 +46,7 @@
     <a class="marca" href="/"><img src="/img/logo.svg" alt="Luminica, ir al inicio" width="210" height="50"></a>
     <nav aria-label="Menú principal">
       <ul class="menu">
+        <li><a href="/diseno-de-iluminacion/">Diseño de iluminación</a></li>
         <li><a href="/lamparas/">Lámparas y luminarias LED</a></li>
         <li><a href="/iluminacion-interiores/">Iluminación para interiores</a></li>
         <li><a href="/energia-solar/">Energía solar</a></li>
@@ -211,6 +212,7 @@
             <fieldset class="campo campo--ancho">
               <legend class="rotulo">Categorías de interés</legend>
               <ul class="opciones">
+                <li class="opcion"><input type="checkbox" id="cat-diseno" name="categorias" value="diseno-de-iluminacion"><label for="cat-diseno">Diseño de iluminación para interiores</label></li>
                 <li class="opcion"><input type="checkbox" id="cat-lamparas" name="categorias" value="lamparas"><label for="cat-lamparas">Lámparas y luminarias LED</label></li>
                 <li class="opcion"><input type="checkbox" id="cat-interiores" name="categorias" value="iluminacion-interiores"><label for="cat-interiores">Iluminación para interiores</label></li>
                 <li class="opcion"><input type="checkbox" id="cat-solar" name="categorias" value="energia-solar"><label for="cat-solar">Energía solar</label></li>
@@ -219,7 +221,7 @@
             </fieldset>
             <div class="campo">
               <label for="codigo-1">Código de producto 1 <span class="obligatorio">(obligatorio)</span></label>
-              <input type="text" id="codigo-1" name="codigo-1" autocomplete="off" pattern="LUM-(LAM|INT|SOL|LED)-[0-9]{3}" maxlength="11" required>
+              <input type="text" id="codigo-1" name="codigo-1" autocomplete="off" pattern="LUM-(DIS|LAM|INT|SOL|LED)-[0-9]{3}" maxlength="11" required>
             </div>
             <div class="campo">
               <label for="cantidad-1">Cantidad 1 <span class="obligatorio">(obligatorio)</span></label>
@@ -227,7 +229,7 @@
             </div>
             <div class="campo">
               <label for="codigo-2">Código de producto 2</label>
-              <input type="text" id="codigo-2" name="codigo-2" autocomplete="off" pattern="LUM-(LAM|INT|SOL|LED)-[0-9]{3}" maxlength="11">
+              <input type="text" id="codigo-2" name="codigo-2" autocomplete="off" pattern="LUM-(DIS|LAM|INT|SOL|LED)-[0-9]{3}" maxlength="11">
             </div>
             <div class="campo">
               <label for="cantidad-2">Cantidad 2</label>
@@ -235,7 +237,7 @@
             </div>
             <div class="campo">
               <label for="codigo-3">Código de producto 3</label>
-              <input type="text" id="codigo-3" name="codigo-3" autocomplete="off" pattern="LUM-(LAM|INT|SOL|LED)-[0-9]{3}" maxlength="11">
+              <input type="text" id="codigo-3" name="codigo-3" autocomplete="off" pattern="LUM-(DIS|LAM|INT|SOL|LED)-[0-9]{3}" maxlength="11">
             </div>
             <div class="campo">
               <label for="cantidad-3">Cantidad 3</label>
@@ -322,6 +324,7 @@
       <nav aria-label="Categorías">
         <h2>Categorías</h2>
         <ul>
+          <li><a href="/diseno-de-iluminacion/">Diseño de iluminación para interiores</a></li>
           <li><a href="/lamparas/">Lámparas y luminarias LED</a></li>
           <li><a href="/iluminacion-interiores/">Iluminación para interiores</a></li>
           <li><a href="/energia-solar/">Energía solar</a></li>
@@ -341,6 +344,8 @@
       <div>
         <h2>Escribinos</h2>
         <p><a href="mailto:hola@luminica.site">hola@luminica.site</a></p>
+        <h2>Dirección</h2>
+        <address>Ruta 40, a metros de la Ruta 52<br>Junín de los Andes, Neuquén, Argentina</address>
       </div>
     </div>
     <p class="pie__legal">© 2026 Luminica. Todos los derechos reservados.</p>

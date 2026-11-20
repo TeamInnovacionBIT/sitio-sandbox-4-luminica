@@ -1,12 +1,14 @@
 # Bases y condiciones de compra de Luminica
 
-Estas bases y condiciones están vigentes desde el 5 de noviembre de 2026 y se aplican a todas las solicitudes de pedido recibidas desde esa fecha.
+Esta versión de las bases y condiciones está vigente desde el 20 de noviembre de 2026 y reemplaza a la del 5 de noviembre de 2026. Se aplica a todas las solicitudes de pedido recibidas desde esa fecha.
 
 ## 1. Objeto
 
 1.1. Estas bases y condiciones regulan las solicitudes de pedido, la venta de productos y la contratación de servicios de Luminica a través del sitio luminica.site y del correo hola@luminica.site, con entregas en todo el país.
 
-1.2. Luminica comercializa cuatro líneas de producto: lámparas y luminarias LED, iluminación para interiores, energía solar y pantallas LED.
+1.2. Luminica comercializa cinco líneas de producto: diseño de iluminación para interiores, lámparas y luminarias LED, iluminación para interiores, energía solar y pantallas LED.
+
+1.3. Luminica tiene su domicilio en Ruta 40, a metros de la Ruta 52, Junín de los Andes, provincia de Neuquén, Argentina.
 
 ## 2. Precios y moneda
 
@@ -44,6 +46,8 @@ Estas bases y condiciones están vigentes desde el 5 de noviembre de 2026 y se a
 
 5.4. Luminica nunca solicita números de tarjeta, claves ni documentos de identidad por correo ni en los formularios del sitio.
 
+5.5. En el diseño de iluminación para interiores (códigos LUM-DIS-) se abona el 50 % al confirmar y el saldo a la entrega final.
+
 ## 6. Entregas
 
 6.1. Los envíos se realizan a todo el país con una tarifa nacional única por rango de peso facturable, de $ 6.900 a $ 95.000 por pallet.
@@ -60,7 +64,7 @@ Estas bases y condiciones están vigentes desde el 5 de noviembre de 2026 y se a
 
 7.1. Los productos tienen una garantía mínima de 12 meses contra defectos de fabricación desde la fecha de entrega. El plazo de cada artículo figura en su catálogo y llega hasta 144 meses en los paneles solares.
 
-7.2. Los servicios de proyecto lumínico y asesoría tienen una garantía de 3 meses que incluye hasta 2 revisiones sin cargo.
+7.2. Los servicios de proyecto lumínico y asesoría tienen una garantía de 3 meses que incluye hasta 2 revisiones sin cargo. El diseño de iluminación para interiores tiene una garantía de 3 meses desde la entrega final, durante la cual se responden las consultas del instalador y se corrige el diseño sin cargo si no se logra el resultado acordado.
 
 7.3. Para iniciar un reclamo, escribí a hola@luminica.site con el número de pedido, una descripción de la falla y fotos o un video. El diagnóstico se informa en 5 días hábiles y la reparación o el reemplazo se realiza en hasta 15 días hábiles desde la recepción del producto.
 
@@ -82,7 +86,7 @@ Estas bases y condiciones están vigentes desde el 5 de noviembre de 2026 y se a
 
 9.1. La responsabilidad de Luminica se limita al importe efectivamente pagado por el artículo involucrado.
 
-9.2. Luminica no responde por daños derivados de instalaciones realizadas por terceros, del uso indebido de los productos ni de datos incorrectos enviados por el cliente para un proyecto lumínico o una asesoría.
+9.2. Luminica no responde por daños derivados de instalaciones realizadas por terceros, del uso indebido de los productos ni de datos incorrectos enviados por el cliente para un proyecto lumínico, una asesoría o un diseño de iluminación.
 
 ## 10. Tratamiento de datos de contacto
 
@@ -95,6 +99,8 @@ Estas bases y condiciones están vigentes desde el 5 de noviembre de 2026 y se a
 11.1. Luminica puede modificar estas bases y condiciones publicando la nueva versión en el sitio con 15 días corridos de anticipación.
 
 11.2. Cada solicitud se rige por la versión vigente en la fecha en que fue enviada.
+
+11.3. Los cambios que solo incorporan productos, servicios o datos de la empresa, sin modificar las condiciones vigentes, rigen desde su publicación.
 
 ## 12. Contacto
 

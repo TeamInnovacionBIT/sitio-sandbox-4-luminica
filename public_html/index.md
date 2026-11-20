@@ -1,10 +1,14 @@
 # Luz, energía y pantallas LED con envío a todo el país
 
-Luminica comercializa desde 2014 lámparas y luminarias LED, iluminación para interiores, energía solar y pantallas LED. Publicamos los datos técnicos y los precios finales en pesos argentinos (ARS) con IVA incluido de cada artículo, y enviamos a todo el país.
+Luminica comercializa desde 2014 lámparas y luminarias LED, iluminación para interiores, energía solar y pantallas LED, y ofrece diseño de iluminación a medida para interiores. Nuestra sede está en Junín de los Andes, provincia de Neuquén. Publicamos los datos técnicos y los precios finales en pesos argentinos (ARS) con IVA incluido de cada artículo, y enviamos a todo el país.
 
 [Solicitar pedido](https://luminica.site/solicitar-pedido.md)
 
-## Nuestras cuatro líneas de producto
+## Nuestras cinco líneas de producto
+
+### [Diseño de iluminación para interiores](https://luminica.site/diseno-de-iluminacion.md)
+
+Nuestro servicio estrella: proyecto a medida con visita, planos, renders y lista de productos. 3 planes desde $ 198.000.
 
 ### [Lámparas y luminarias LED](https://luminica.site/lamparas.md)
 
@@ -28,6 +32,7 @@ Gabinetes LED para interior y exterior con pitch de 1,95 a 8 mm. 6 artículos de
 
 | Categoría | Código | Producto | Dato principal | Precio | Disponibilidad |
 |---|---|---|---|---|---|
+| Diseño de iluminación para interiores | LUM-DIS-002 | Plan Completo | Hasta 5 ambientes, 18 días hábiles | $ 459.000 | En stock |
 | Lámparas y luminarias LED | LUM-LAM-002 | Lámpara LED A60 regulable 10 W | 1.055 lm, 2.700 K, CRI 90 | $ 8.400 | En stock |
 | Iluminación para interiores | LUM-INT-001 | Proyecto lumínico por ambiente | Ambientes de hasta 40 m², 10 días hábiles | $ 185.000 | En stock |
 | Energía solar | LUM-SOL-001 | Panel solar monocristalino 450 W | 450 W, 20,9 % de eficiencia | $ 268.000 | En stock |

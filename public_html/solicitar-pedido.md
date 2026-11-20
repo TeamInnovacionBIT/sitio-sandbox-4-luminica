@@ -43,7 +43,7 @@ Los códigos de producto figuran en la tabla de cada categoría, con el formato 
 
 | Campo | Tipo de dato | Obligatorio |
 |---|---|---|
-| Categorías de interés | Selección múltiple: Lámparas y luminarias LED, Iluminación para interiores, Energía solar, Pantallas LED | No |
+| Categorías de interés | Selección múltiple: Diseño de iluminación para interiores, Lámparas y luminarias LED, Iluminación para interiores, Energía solar, Pantallas LED | No |
 | Código de producto 1 | Texto con formato LUM-XXX-000 | Sí |
 | Cantidad 1 | Número entero de 1 a 999 | Sí |
 | Código de producto 2 | Texto con formato LUM-XXX-000 | No |

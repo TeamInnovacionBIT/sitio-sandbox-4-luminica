@@ -50,6 +50,7 @@ Sí. Durante los 24 meses de garantía se reparan o reemplazan los módulos con 
 
 ## Otras categorías y envíos
 
+- [Diseño de iluminación para interiores](https://luminica.site/diseno-de-iluminacion.md): proyecto a medida con visita, planos, renders y lista de productos.
 - [Lámparas y luminarias LED](https://luminica.site/lamparas.md): lámparas, tubos, paneles, plafones y proyectores LED.
 - [Iluminación para interiores](https://luminica.site/iluminacion-interiores.md): proyectos lumínicos, asesoría y kits por ambiente.
 - [Energía solar](https://luminica.site/energia-solar.md): paneles, inversores, baterías, controladores y kits aislados.

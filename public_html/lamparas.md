@@ -51,6 +51,7 @@ Sí. El monto mínimo de pedido es de $ 60.000 y se puede alcanzar combinando pr
 
 ## Otras categorías y envíos
 
+- [Diseño de iluminación para interiores](https://luminica.site/diseno-de-iluminacion.md): proyecto a medida con visita, planos, renders y lista de productos.
 - [Iluminación para interiores](https://luminica.site/iluminacion-interiores.md): proyectos lumínicos, asesoría y kits por ambiente.
 - [Energía solar](https://luminica.site/energia-solar.md): paneles, inversores, baterías, controladores y kits aislados.
 - [Pantallas LED](https://luminica.site/pantallas-led.md): gabinetes LED para interior y exterior.

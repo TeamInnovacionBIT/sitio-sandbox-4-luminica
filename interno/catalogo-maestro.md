@@ -2,7 +2,7 @@
 
 Única fuente de verdad para precios, códigos, atributos y disponibilidad. Las tablas HTML, las tablas Markdown, el JSON-LD y los destacados de la home se copian de acá sin variaciones.
 
-- Versión del catálogo: 1.0.0 (2026-11-05)
+- Versión del catálogo: 1.1.0 (2026-11-20)
 - Moneda: pesos argentinos (ARS). Precios finales con IVA incluido, enteros, con punto como separador de miles.
 - Disponibilidad admitida: "En stock" (schema.org InStock), "Sobre pedido" (BackOrder), "Agotado temporalmente" (OutOfStock).
 - Convención numérica: separador de miles con punto en todos los números de cuatro cifras o más (incluye kelvin y horas); decimales con coma.
@@ -13,8 +13,9 @@
 | Concepto | Valor |
 |---|---|
 | Año de fundación | 2014 |
-| Líneas de producto | 4 (Lámparas y luminarias LED, Iluminación para interiores, Energía solar, Pantallas LED) |
-| Artículos en catálogo | 27 (7 + 7 + 7 + 6) |
+| Domicilio | Ruta 40, a metros de la Ruta 52, Junín de los Andes, provincia de Neuquén, Argentina |
+| Líneas de producto | 5 (Diseño de iluminación para interiores, Lámparas y luminarias LED, Iluminación para interiores, Energía solar, Pantallas LED) |
+| Artículos en catálogo | 30 (3 + 7 + 7 + 7 + 6) |
 | Directorio | 5 miembros; revisa las solicitudes todos los días hábiles |
 | Plazo de aprobación del directorio | hasta 3 días hábiles desde la recepción de la solicitud completa |
 | Monto mínimo de pedido | $ 60.000 |
@@ -26,6 +27,7 @@
 | Plazo adicional "Sobre pedido" | hasta 20 días hábiles antes del despacho |
 | Garantía estándar de productos | mínimo 12 meses contra defectos de fabricación desde la fecha de entrega; el plazo de cada artículo figura en el catálogo (máximo 144 meses, paneles solares) |
 | Garantía de servicios (LUM-INT-001 y LUM-INT-002) | 3 meses desde la entrega, con hasta 2 revisiones sin cargo |
+| Garantía del diseño de iluminación (LUM-DIS-) | 3 meses desde la entrega final; dentro de ese plazo se responden las consultas del instalador y se corrige sin cargo el diseño si no se logra el resultado acordado |
 | Productos "Agotado temporalmente" | se pueden incluir en la solicitud; se informa la fecha estimada de reposición antes de la aprobación; no se cobra nada hasta la confirmación |
 | Descuento por transferencia | 5 % sobre el precio de los productos, sin incluir el envío |
 | Visitas de entrega | segunda visita sin cargo; después de la segunda visita fallida el reenvío se cobra según la tabla |
@@ -57,7 +59,29 @@ Peso facturable: el mayor entre el peso real y el peso volumétrico. Peso volum�
 - Seguro de transporte incluido por el valor declarado del pedido.
 - Seguimiento: código enviado por correo el día del despacho.
 
-## 3. Lámparas y luminarias LED (LUM-LAM-)
+## 3. Diseño de iluminación para interiores (LUM-DIS-)
+
+Servicio estrella, con página propia (/diseno-de-iluminacion/). Un mismo servicio en tres planes; cada plan tiene su código para pedirlo con la solicitud de pedido. Descripción JSON-LD = celda "Entregables". Plazo = días hábiles desde la primera visita o el relevamiento hasta la entrega final. Para servicios, "En stock" significa que hay cupo para iniciar el trabajo y "Sobre pedido" que el inicio se agenda dentro de los 20 días hábiles.
+
+| Código | Plan | Ambientes | Visitas | Rondas de ajustes | Entregables | Plazo (días hábiles) | Garantía (meses) | Precio | Disponibilidad |
+|---|---|---|---|---|---|---|---|---|---|
+| LUM-DIS-001 | Plan Esencial | 1 | 1 | 2 | Plano de ubicación de luminarias, lista de productos con códigos, temperatura de color por zona y render de una escena | 10 | 3 | $ 198.000 | En stock |
+| LUM-DIS-002 | Plan Completo | Hasta 5 | 2 | 3 | Todo el Plan Esencial, plano de circuitos y comandos, cálculo lumínico por ambiente, renders de 4 escenas y presupuesto de productos | 18 | 3 | $ 459.000 | En stock |
+| LUM-DIS-003 | Plan Obra | Hasta 10 | 3 y una visita de verificación | 5 | Todo el Plan Completo, escenas regulables, renders de 8 escenas, guía de obra para el instalador e informe final con mediciones | 28 | 3 | $ 940.000 | Sobre pedido |
+
+Condiciones del servicio:
+
+- Visitas presenciales hasta 60 km de la sede de Junín de los Andes. Más lejos, el relevamiento se hace por videollamada y con fotos y medidas del cliente, al mismo precio y con los mismos entregables.
+- Un ambiente es un espacio de uso propio; un living comedor integrado de hasta 40 m² cuenta como uno.
+- Ronda de ajustes adicional: $ 32.000, resuelta en 3 días hábiles.
+- Pago: 50 % al confirmar y saldo a la entrega final, con los medios de pago generales.
+- Descuento: si se compran productos Luminica del proyecto dentro de los 30 días corridos posteriores a la entrega final, se descuenta de esa compra el 10 % del valor del plan.
+- No incluye la instalación eléctrica.
+- Diferencia con LUM-INT-001 y LUM-INT-002: esos servicios se prestan solo a distancia, sin visitas ni renders.
+
+Destacado de la home: LUM-DIS-002.
+
+## 4. Lámparas y luminarias LED (LUM-LAM-)
 
 Descripción JSON-LD = celda "Tipo".
 
@@ -73,7 +97,7 @@ Descripción JSON-LD = celda "Tipo".
 
 Destacado de la home: LUM-LAM-002.
 
-## 4. Iluminación para interiores (LUM-INT-)
+## 5. Iluminación para interiores (LUM-INT-)
 
 Descripción JSON-LD = celda "Alcance o contenido". Plazo = días hábiles de preparación (productos) o de ejecución (servicios), sin contar el transporte. Los servicios se prestan a distancia, a partir de planos, medidas y fotos que el cliente envía por correo. Para servicios, "En stock" significa que hay cupo para iniciar el trabajo.
 
@@ -89,7 +113,7 @@ Descripción JSON-LD = celda "Alcance o contenido". Plazo = días hábiles de pr
 
 Destacado de la home: LUM-INT-001.
 
-## 5. Energía solar (LUM-SOL-)
+## 6. Energía solar (LUM-SOL-)
 
 Descripción JSON-LD = celda "Tipo".
 
@@ -109,7 +133,7 @@ Coherencia: eficiencia de panel = potencia / (área en m² x 1.000 W/m²). 450 /
 
 Destacado de la home: LUM-SOL-001.
 
-## 6. Pantallas LED (LUM-LED-)
+## 7. Pantallas LED (LUM-LED-)
 
 Descripción JSON-LD = celda "Uso". Precio por gabinete.
 
